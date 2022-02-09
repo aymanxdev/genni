@@ -1,13 +1,3 @@
-//   companyFrom: "",
-//   billTo: "",
-//   shipTo: "",
-//   item: "",
-//   quantity: 0,
-//   amount: 0,
-//   currency: "",
-//   terms: "",
-//   total: 0,
-
 export const inputs = [
   {
     id: 1,

@@ -1,0 +1,43 @@
+.invoice__container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+.invoice__wrapper {
+  padding: 10px;
+  width: 40%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: lightgray;
+}
+.invoice__form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 40%;
+  border: none;
+  padding: 15px 20px;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid teal;
+}
