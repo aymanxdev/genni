@@ -8,15 +8,18 @@
   background-size: cover;
 }
 .invoice__wrapper {
-  padding: 10px;
+  padding: 70px;
   width: 40%;
   background-color: white;
   border-radius: 5px;
-  box-shadow: lightgray;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
 }
 .invoice__form {
   display: flex;
   flex-wrap: wrap;
+}
+.invoice__form {
 }
 
 .col1 {
