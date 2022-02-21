@@ -1,6 +1,5 @@
 import theme from "./styles/globalVar";
 import { ThemeProvider } from "styled-components";
-import { PDFViewer } from "@react-pdf/renderer";
 
 import "./App.css";
 import { Navbar } from "./components/navbar/Navbar";
@@ -12,9 +11,8 @@ function App() {
     <ThemeProvider theme={theme}>
       <div className="App">
         <Navbar />
-        <PDFViewer>
-          <InvoiceTemplate />
-        </PDFViewer>
+
+        <InvoiceTemplate />
       </div>
     </ThemeProvider>
   );
